@@ -1,0 +1,21 @@
+/* TODO: Style the input field so that at minimum ... */
+/* 1. The input has only the bottom border
+ * 2. The font is a monospaced font
+ * (all other design decisions are up to you)
+ */
+
+
+ .center-block {
+    margin: auto;
+    display: block;
+  }
+
+input {
+    text-align: center;
+    font-family: "Courier New";
+    font-size: 100px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+    padding-top: 25%;
+}
